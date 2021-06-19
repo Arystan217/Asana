@@ -1,0 +1,27 @@
+@media (max-width: 1050px) {
+  .header__nav ul li {
+    margin-right: 15px;
+  }
+  .header__more-link {
+    margin: 0 4px;
+  }
+}
+@media (max-width: 920px) {
+  .header__nav {display: none;}
+  .header__more {display: none;}
+  .burger-icon {
+    display: block;
+  }
+}
+@media (min-width: 920px) {
+  .header__nav {display: flex;}
+  .header__more {display: flex;}
+  .burger-icon {
+    display: none;
+  }
+  .burger {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
